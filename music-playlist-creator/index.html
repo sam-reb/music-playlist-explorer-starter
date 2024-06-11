@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Saira&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,11 +20,11 @@
         <!-- Your main content here -->
         <div class="playlist-cards">
             <article class="playlist">
-                <img class="playlist-image" src="assets/img/playlist.png">
+                <img class="playlist-image" src="assets/img/playlist.png" width="280" height="280">
                 <h2 class="playlist-title">Late Night Drive</h2>
                 <p class="creator-name">Melody Maven</p>
-                <!-- Heart -->
-                <p class="like-count">0</p>
+                <!-- Likes -->
+                <span>&#9825; 0</span>
             </article>
         </div>
     </main>
@@ -33,27 +35,25 @@
     <div class="modal-overlay">
         <div class="modal-content">
             <div class="modal-header">
-                <img class="modal-playlist-image" src="assets/img/playlist.png">
+                <img class="modal-playlist-image" src="assets/img/playlist.png" width="300" height="300">
                 <div class="modal-title-creator">
                     <h1 class="modal-playlist-title">Late Night Drive</h1>
                     <h2 class="modal-creator-name">Melody Maven</h2>
                 </div>
             </div>
+            <button>Shuffle</button>
             <div class="modal-song-list">
                 <div class="song-container">
-                    <img class="song-image">
+                    <img class="song-image" src="assets/img/song.png" width="100" height="100">
                     <div class="song-info">
-                        <div class="song-details">
-                            <h3 class="song-title">Nightcall</h3>
-                            <p class="artist-name">Kavinsky</p>
-                            <p class="album-name">Nightcall</p>
-                        </div>
+                        <h3 class="song-title">Nightcall</h3>
+                        <p class="artist-name">by Kavinsky</p>
+                        <p class="album-name">Nightcall</p>
                         <p class="song-duration">4:18</p>
                     </div>
-
                 </div>
             </div>
-            <button>CLOSE</button>
+            <button>Close</button>
         </div>
     </div>
 
