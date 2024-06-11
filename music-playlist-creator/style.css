@@ -4,3 +4,20 @@ body {
     padding: 0;
     background-color: #f8f8f8;
 }
+
+header {
+    background-color: rgb(189, 189, 189);
+    height: 50%;
+    background-size: cover;
+    position:relative;
+    padding: 1px 0;
+    border: 0.1px solid rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 25px;
+    color: rgb(64, 64, 64);
+    padding-left: 30px;
+}
