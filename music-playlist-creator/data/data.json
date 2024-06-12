@@ -1,4 +1,5 @@
-let data = { "playlists": [
+[
+  { "playlists": [
     {
       "playlistID": 0,
       "playlist_name": "Late Night Drive",
@@ -441,4 +442,5 @@ let data = { "playlists": [
       ]
     }
   ]
-}
+ }
+]

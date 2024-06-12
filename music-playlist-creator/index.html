@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Playlist Explorer</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-
+    <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +19,14 @@
     <main class="main-section"> 
         <!-- Your main content here -->
         <div class="playlist-cards">
-            <article class="playlist">
-                <img class="playlist-image" src="assets/img/playlist.png" width="280" height="280">
-                <h2 class="playlist-title">Late Night Drive</h2>
-                <p class="creator-name">Melody Maven</p>
-                <!-- Likes -->
-                <span>&#9825; 0</span>
+            <!-- <article class="playlist">
+                <img class="playlist-image" src="assets/img/playlist.png">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Late Night Drive</h2>
+                    <p class="creator-name">Melody Maven</p>
+                    <span class="like-count">&#9825; 0</span>
+                </div>
+                Likes -->
             </article>
         </div>
     </main>
@@ -60,7 +62,7 @@
     <footer>
         <!-- Your footer content here -->
     </footer>
-    <script src="data/data.js"></script>
-    <script src="script.js"></script>
+    <script src="data/data.json"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
