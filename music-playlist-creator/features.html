@@ -14,18 +14,13 @@
     <header>
         <h1>Music Playlist Explorer</h1>
         <div class="guide">
-            <button onclick="window.location.href ='features.html';">Featured</button>
-            <button onclick="window.location.href ='index.html';">Library</button>
+            <button onclick="window.location.href ='features.html';" id="featuredBtn">Featured</button>
+            <button onclick="window.location.href ='index.html';" id="libraryBtn">Library</button>
         </div>
     </header>
 
     <main class="main-section"> 
         <!-- Your main content here -->
-        <div class="playlist-cards">
-        </div>
-    </main>
-
-    <div class="modal-overlay">
         <div class="modal-content">
             <div class="modal-header">
                 <img class="modal-playlist-image" id="modal-playlist-image" src="assets/img/playlist.png" width="300" height="300">
@@ -42,12 +37,12 @@
             </div>
             <button id="closeModalBtn">Close</button>
         </div>
-    </div>
+    </main>
 
     <footer>
         <!-- Your footer content here -->
     </footer>
-    <script src="script.js"></script>
+    <script src="features.js"></script>
     <script src="data/data.js"></script>
 </body>
 </html>
